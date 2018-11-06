@@ -20,4 +20,4 @@ nodejs starter application
 
 ## Further Development
 
-... You can easily integrate this app with popular ORMs such as mongoose or sequelize for database access.
+* You can easily integrate this app with popular ORMs such as mongoose or sequelize for database access.
