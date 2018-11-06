@@ -3,7 +3,7 @@ nodejs starter application
 
 ## Stack
 1. express js
-2. typescript
+2. typescri
 3. mocha chai
 
 ## Setup
@@ -17,3 +17,7 @@ nodejs starter application
 7. To test, ```yarn test```
 
 >Note: It is recommended to use yarn. If you prefer npm, replace yarn with npm run. 
+
+## Further Development
+
+.. You can easily integrate this app with popular ORMs such as mongoose or sequelize for database access.
