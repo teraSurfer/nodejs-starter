@@ -26,7 +26,9 @@ class App {
 
   private setConfig(): void {
     this.express.use(bodyParser.json())
-    this.express.use(logger('combined'))
+    if(process.env.NODE_ENV !== 'test'){
+      this.express.use(logger('combined'))
+    }
     this.express.use(cors());
   }
 }
